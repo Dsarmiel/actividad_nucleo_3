@@ -1,0 +1,39 @@
+
+.container-login{
+    background-color: #011062;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-form{
+    background-color: #fff;
+    height: 550px;
+    width: 955px;
+    box-shadow: 11px 11px 20px 8px rgba(0,0,0,0.75);
+}
+.logo{
+    height: 400px;
+    width: 380px;
+}
+.row{
+    height: 100%;
+}
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-items{
+    border-left: 2px solid #a3a3a3;
+}
+.forgot-password{
+    text-align: end;
+    cursor: pointer;
+    color: #00a5ff;
+}
+.container-login-btn{
+    text-align: end;
+    margin: 10px 0;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Actividad Nucleo 3</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body>
+
+    <div class="home-container">
+        <div class="nav-container">
+            <!--Navbar con los botones de login y registro-->
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <div>
+                        <img class="navbar-logo" src="img/navbar-logo.png">
+                        <a class="navbar-brand">Papeleria</a>
+                    </div>
+                    <div class="d-flex">
+                        <button class="btn btn-primary" type="button"
+                            onclick="window.location.href = './login/login.html'">Login</button>
+                        <button class="btn btn-secondary" type="button"
+                            onclick="window.location.href = './register/register.html'">Registro</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--Imagenes dentro del carousel-->
+        <div>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <h1 class="text-into-image text-light fw-normal">
+                            Bienvenidos a nuestra papelería, tu lugar ideal para
+                            todas tus necesidades de papelería y suministros de oficina!
+                        </h1>
+                        <img src="./img/carousel-item1.jpg" class="d-block w-100" alt="ItemPapeleriaCarousel1"
+                            height="700px">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <h2 class="text-into-image text-light fw-normal">
+                            Nuestro objetivo es brindarte la mejor experiencia de
+                            compra posible. Nuestro amable y dedicado equipo estará encantado de ayudarte a encontrar
+                            exactamente lo que buscas.
+                        </h2>
+                        <img src="./img/carousel-item2.jpg" class="d-block w-100" alt="ItemPapeleriaCarousel2"
+                            height="700px">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <h3 class="text-into-image text-light fw-normal">
+                            También nos complace ofrecer servicios
+                            adicionales para facilitar tu experiencia de compra. Si necesitas imprimir documentos,
+                            escanear o fotocopiar, nuestro centro de servicios está equipado con tecnología de
+                            vanguardia para satisfacer esas necesidades.
+                        </h3>
+                        <img src="./img/carousel-item3.jpg" class="d-block w-100" alt="ItemPapeleriaCarousel3"
+                            height="700px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--Informacion general como mision, vision y objetivos-->
+            <div class="container-info-general">
+                <div class="row">
+                    <div class="col-md-6 image-info-container">
+                        <img class="image-info" src="img/img-info1.jpg">
+                    </div>
+                    <div class="col-md-6 text-info-general">
+                        <h3 class="text-dark fw-normal">Objetivos</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item fw-normal">
+                                Proporcionar a nuestros clientes una amplia variedad de productos de papelería y
+                                suministros de oficina de alta calidad.
+                            </li>
+                            <li class="list-group-item fw-normal">
+                                Garantizar una experiencia de compra excepcional, brindando un servicio al cliente
+                                amigable, asesoramiento experto y atención personalizada.
+                            </li>
+                            <li class="list-group-item fw-normal">
+                                Mantener precios competitivos sin comprometer la calidad de nuestros productos.
+                            </li>
+                            <li class="list-group-item fw-normal">
+                                Establecer relaciones sólidas y duraderas con nuestros clientes, basadas en la confianza
+                                y la satisfacción.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 image-info-container">
+                        <img class="image-info" src="img/img-info2.jpg">
+                    </div>
+                    <div class="col-md-6 text-info-general">
+                        <h3 class="text-dark fw-normal">Mision</h3>
+                        <p class="text-dark fw-normal">
+                            Nuestra misión es ser la papelería de referencia en nuestra comunidad, ofreciendo productos
+                            de papelería y suministros de oficina de calidad superior, junto con un servicio
+                            excepcional. Nos esforzamos por ser el destino único para todas las necesidades de nuestros
+                            clientes, brindándoles una amplia selección de productos, asesoramiento experto y soluciones
+                            personalizadas. Valoramos la satisfacción del cliente y trabajamos arduamente para superar
+                            sus expectativas en cada interacción.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 image-info-container">
+                        <img class="image-info" src="img/img-info3.jpg">
+                    </div>
+                    <div class="col-md-6 text-info-general">
+                        <h3 class="text-dark fw-normal">Vision</h3>
+                        <p class="text-dark fw-normal">
+                            Nuestra visión es convertirnos en la papelería preferida de nuestra comunidad y más allá.
+                            Buscamos ser reconocidos como líderes en la industria, destacando por nuestra calidad,
+                            variedad de productos y excelencia en el servicio al cliente. Nos esforzamos por crecer y
+                            expandirnos, adaptándonos a las necesidades cambiantes del mercado y ofreciendo soluciones
+                            innovadoras. Buscamos establecer asociaciones a largo plazo con nuestros clientes y
+                            convertirnos en su socio confiable en todas sus necesidades de papelería y suministros de
+                            oficina.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

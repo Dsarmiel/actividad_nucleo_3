@@ -1,0 +1,33 @@
+
+.container-register{
+    background-color: #011062;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-form{
+    background-color: #fff;
+    width: 955px;
+    box-shadow: 11px 11px 20px 8px rgba(0,0,0,0.75);
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.row{
+    height: 100%;
+}
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-items{
+    border-left: 2px solid #a3a3a3;
+}
+.container-register-btn{
+    text-align: end;
+    margin: 10px 0;
+}

@@ -1,0 +1,33 @@
+/*HOME STYLES*/
+button {
+    margin: 0px 10px !important;
+}
+.text-into-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-info-general {
+    margin: 200px;
+}
+.container-info-general > .row {
+    margin-top: 40px;
+}
+.image-info-container {
+    text-align: center;
+}
+.image-info{
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+}
+.text-info-general{
+    margin: auto !important;
+    width: 50% !important;
+    padding: 10px !important;
+}
+.navbar-logo{
+    height: 100px;
+    width: 100px;
+}
